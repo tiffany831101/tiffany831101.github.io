@@ -1,0 +1,57 @@
+* {
+	font-family: serif, "微軟正黑體";
+}
+
+img {
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+}
+
+.name {
+	font-size: 25px;
+}
+
+.green {
+	background-color: #78c2ad;
+}
+
+.icon_size {
+	font-size: 25px;
+}
+
+a {
+	color: gray;
+}
+
+.round {
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	background-color: grey;
+}
+
+.educationBg {
+	height: 100px;
+	border-left: 2px solid grey;
+}
+
+.skills {
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill {
+	width: 30%;
+	/* background-color: red; */
+	border-top: 5px solid grey;
+}
+
+.no_style {
+	list-style-position: outside;
+}
+
+.skill p:first-child {
+	font-size: 20px;
+	color: #13ab67;
+}
