@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="./piano.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row d-flex justify-content-center mt-5 allPiano">
+            <div class="col-1 key" data-key="68">
+                <div class="w-50 black mx-auto"></div>
+            </div>
+            <div class="col-1 key" data-key="70">
+                <div class="w-50 black mx-auto"></div>
+            </div>
+            <div class="col-1 key" data-key="71">
+            </div>
+            <div class="col-1 key" data-key="72">
+                <div class="w-50 black mx-auto"></div>
+            </div>
+            <div class="col-1 key" data-key="74">
+                <div class="w-50 black mx-auto"></div>
+            </div>
+            <div class="col-1 key" data-key="75">
+                <div class="w-50 black mx-auto"></div>
+            </div>
+            <div class="col-1 key" data-key="76"></div>
+        </div>
+        <div class="row d-flex justify-content-center mt-1">
+            <div class="col-1 text-center">Do</div>
+            <div class="col-1 text-center">Re</div>
+            <div class="col-1 text-center">Mi</div>
+            <div class="col-1 text-center">Fa</div>
+            <div class="col-1 text-center">Sol</div>
+            <div class="col-1 text-center">La</div>
+            <div class="col-1 text-center">Si</div>
+        </div>
+        <div class="row d-flex justify-content-center mt-3">
+            <div class="col-8 text-center">press on keyboard to make sounds</div>
+        </div>
+        <div class="row d-flex justify-content-center mt-1">
+            <div class="col-1 text-center keyboard">D</div>
+            <div class="col-1 text-center keyboard">F</div>
+            <div class="col-1 text-center keyboard">G</div>
+            <div class="col-1 text-center keyboard">H</div>
+            <div class="col-1 text-center keyboard">J</div>
+            <div class="col-1 text-center keyboard">K</div>
+            <div class="col-1 text-center keyboard">L</div>
+        </div>
+    </div>
+
+
+    <audio src="./pianoC.mp3" data-key="68"></audio>
+    <audio src="./pianoD.mp3" data-key="70"></audio>
+    <audio src="./pianoE.mp3" data-key="71"></audio>
+    <audio src="./pianoF.mp3" data-key="72"></audio>
+    <audio src="./pianoG.mp3" data-key="74"></audio>
+    <audio src="./pianoA.mp3" data-key="75"></audio>
+    <audio src="./pianoB.mp3" data-key="76"></audio>
+
+    <script src="./piano.js"></script>
+
+</body>
+
+</html>
